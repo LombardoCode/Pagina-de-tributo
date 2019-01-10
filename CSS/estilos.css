@@ -1,0 +1,102 @@
+:root {
+	--fondo-gris: #d3d3d3;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+div#contenedor {
+	width: 98%;
+	margin: 0 auto 22px auto;
+	background-color: var(--fondo-gris);
+	text-align: center;
+	border-radius: 4px;
+}
+
+div#contenedor h1 {
+	margin: 22px 0;
+	padding-top: 22px;
+}
+
+div#contenedor p:nth-child(1), div#contenedor p:nth-child(2) {
+	padding-bottom: 16px;
+}
+
+div#contenedor-interno {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 6px;
+	background-color: white;
+}
+
+div#contenedor-interno img {
+	max-width: 100%;
+}
+
+div#contenedor-interno p {
+	margin: 16px 20px 16px 20px;
+
+}
+
+div#timeline {
+	padding-top: 50px;
+}
+
+div#super {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+div#timeline-interno {
+	text-align: left;
+	margin: 0 auto;
+	max-width: 800px;
+	margin: 0 22px;
+}
+
+div#timeline-interno h2 {
+	font-size: 1.4rem;
+	margin-bottom: 22px;
+}
+
+ul#listado {
+	font-size: 0.9rem;
+}
+
+div#footer {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+p#frase {
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	font-style: italic;
+}
+
+p#autor_frase {
+	font-size: 0.9rem;
+	font-style: italic;
+}
+
+p#invitacion_wikipedia {
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 22px;
+}
+
+
